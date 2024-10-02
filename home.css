@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.nav-one{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: rgba(255, 255, 255, 0.767);
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.span-one{
+    color: orange;
+    margin-right: 150px;
+}
+.nav-one li{
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+#cart-logo{
+    padding-left: 120px;
+}
+.div-2{
+    background-color: rgba(255, 255, 255, 0.888);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.std-id{
+    color: orange;
+    font-size: 40px;
+    margin: 70px;
+}
+#search-i{
+    color:#ffff;
+    background-color: #ffa500;
+    border: 1px solid;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 3px;
+;
+}
+.nav-two{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 14px;
+}
+.body-one{
+    background-color: pink ;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-logo{
+    background-color: orange;
+}
+.search-box{
+    height: 30px;
+}
+.nav-two li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.span{
+        color: black;
+        font-size: 25px;
+        position: relative;
+        top: 5%;
+        /* background-color: aqua; */
+        /* border-bottom: 2px solid rgb(57,157,207);     */
+        /* display: inline;      */
+         /* justify-content: center;
+         align-items: center;  */
+}
+hr{
+    height: 1px;
+    background-color:  rgb(57,157,207);    
+    border: none ;
+}
+button{
+    background-color: white;
+    border: none;
+    color: rgb(57,157,207);
+    margin: 20px;
+    padding: 17px;
+    font-weight: bold;
+    
+    /* justify-content; */
+}
+.body-two{
+    background-color: whitesmoke;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.body-two span{
+    /* border-bottom: solid rgb(57,157,207); */
+    /* display: inline; */
+    height: 2px;
+}
+
+.items{
+    background-color: white;
+    border: 1px solid gray;
+    width: 220px;
+    position: relative;
+    height:min-content;
+    overflow-x: hidden;
+    flex-direction: column;
+    display: flex;      
+    justify-content:space-evenly ;
+    align-items: center;
+    margin-right: 20px;
+}
+.rating{
+    color: rgb(57,157,207);
+}
+.cost{
+    color: rgba(0, 0, 0, 0.658);
+    text-decoration: line-through;
+}
+.btn-cart{
+    color: white;
+    background-color:rgb(57,157,207) ;
+    padding: 14px;
+
+}
+.item-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    /* padding: 20px; */
+    /* position: relative; */
+
+}
+.offer{
+        background-color: orange;
+        font-size: 13px;
+        color: white;
+        position:  relative;
+        right:-40%
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.84);
+    height: 320px;
+     /* display: flex;  */
+     /* justify-content: space-evenly; */
+    /* align-items: center;  */
+    color: grey;
+}
+
+.footer span{
+    color: white;
+}
+#foot-i{
+    /* background-color: orange;   */
+    border: 1px solid orange;
+    color: #ffa500;
+    padding: 5px;
+    font-size: 10px;
+}
+#foot-i2{
+    color: #ffa500;
+    padding: 5px;
+    font-size: 15px;     
+}
+.footer-1{
+    position: relative;
+    top: 20%;
+
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center   ;
+    /* position: relative; */
+    /* top: 0%; */
+}
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+}
+.footer-2 span{
+    color: #ffa500;
+}
+.footer-3{
+    background-color:rgba(0, 0, 0, 0.781);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 50px;
+}
+.f-icon{
+    position: relative;
+    right: -10%;
+}
+.card-arrow{
+ display: flex;
+    justify-content: space-between  ;
+    /* align-items: center; */
+    position: relative ;
+    right: -70%;
+    width: 20%;
+    /* background-color: #ffa500; */
+}

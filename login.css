@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.nav-one{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: rgba(255, 255, 255, 0.767);
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.span-one{
+    color: orange;
+    margin-right: 150px;
+}
+.nav-one li{
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+#cart-logo{
+    padding-left: 120px;
+}
+.div-2{
+    background-color: rgba(255, 255, 255, 0.888);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.std-id{
+    color: orange;
+    font-size: 40px;
+    margin: 70px;
+}
+#search-i{
+    color:#ffff;
+    background-color: #ffa500;
+    border: 1px solid;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 3px;
+;
+}
+.nav-two{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 14px;
+}
+#search-logo{
+    background-color: orange;
+}
+.search-box{
+    height: 30px;
+}
+.nav-two li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.nav-3{
+    background-color: whitesmoke;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20vh ;
+    font-size: 14px;
+}
+
+.home-txt{
+    color: rgb(51,153,204);
+    margin-left: 10px;
+}
+.login-txt{
+    color: gray;
+    padding-left: 10px;
+}
+.login{
+    background-color: whitesmoke;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 150px;
+    margin: 20px;
+
+}
+.body{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    color: rgb(254,148,53);
+}
+.people-txt{
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    display: block;
+}
+.register{
+    color: grey;
+    margin: 5px;
+}
+.login input{
+    width: 30vw;
+    height: 7vh;   
+    margin: 5px;
+    border: 1px solid gray;
+}
+.pass-txt{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    position: relative;
+    right: 100px;
+}
+.login button{
+    color: white;
+    background-color: rgb(51,153,204);
+    border: none;
+    width: 30vw;
+    height: 7vh;
+    margin: 15px;
+}
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.84);
+    height: 320px;
+    color: grey;
+}
+
+.footer span{
+    color: white;
+}
+#foot-i{
+    border: 1px solid orange;
+    color: #ffa500;
+    padding: 5px;
+    font-size: 10px;
+}
+#foot-i2{
+    color: #ffa500;
+    padding: 5px;
+    font-size: 15px;     
+}
+.footer-1{
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center   ;
+
+}
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+}
+.footer-2 span{
+    color: #ffa500;
+}
+.footer-3{
+    background-color:rgba(0, 0, 0, 0.781);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.f-icon{
+    position: relative;
+    right: -10%;
+}
+.card-arrow{
+ display: flex;
+    justify-content: space-between  ;
+    position: relative ;
+    right: -70%;
+    width: 20%;
+
+}
