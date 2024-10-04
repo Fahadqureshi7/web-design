@@ -125,9 +125,8 @@ a{
     display: flex;
     align-items: start;
     display:inline;
-    /* height: 8px; */
+    height: 20px;
     /* position: relative; */
-    /* right: 45%; */
 }
 .check{
     margin: 4px 0 0;

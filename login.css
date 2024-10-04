@@ -99,7 +99,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 100px;
-    width: 150px;
+    width: 250px;
     margin: 20px;
 
 }
@@ -131,11 +131,11 @@ a{
     border: 1px solid gray;
 }
 .pass-txt{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     margin-top: 15px;
     position: relative;
-    right: 100px;
+    right: 125px;
 }
 .login button{
     color: white;

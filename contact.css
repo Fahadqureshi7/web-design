@@ -143,11 +143,13 @@ input{
 #text{
     height: 140px;
 }
-button{
+button{   
+    display: inline;
+    
     color: white;
     background-color: black;
     height: 30px;
-    width: 290px;
+    width: 300px;
 }
 .footer{
     background-color: rgba(0, 0, 0, 0.84);
